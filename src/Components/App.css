@@ -1,0 +1,47 @@
+.Circle {
+    width: 60vw;
+    height: 60vw;
+    background-color: red;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+
+.Circle h2 {
+    font-size: 5em;
+    padding-top: 10px;
+    color: antiquewhite;
+}
+
+.Circle h3 {
+    color: bisque;
+}
+
+main {
+    min-height: 95vh;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 span {
+    display: block;
+    color: coral;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    justify-items: space-around;
+}
+
+h2 span {
+    color: brown;
+    text-align: center;
+    display: block;
+}
